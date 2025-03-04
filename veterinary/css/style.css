@@ -30,11 +30,15 @@ img {
 
 /* Header */
 
+.background_header {
+    background-color: #daac00;
+
+}
+
 .container_menu {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #daac00;
     padding: 20px 100px;
 }
 
@@ -83,12 +87,16 @@ img {
 
 /* Body One */
 
+.background_one {
+    background-color: #daac00;
+}
+
 .container_content {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    background-color: #daac00;
+
     padding: 100px 0px;
 }
 
@@ -143,7 +151,7 @@ img {
 
 /* Body Two & Body Four */
 
-.background_color {
+.background_two {
     background-color: white;
 
 }
@@ -164,8 +172,11 @@ img {
 
 /* Body Three & Body Five*/
 
-.container_top-box {
+.background_three {
     background-color: #daac00;
+}
+
+.container_top-box {
     padding: 100px 0px;
 }
 
@@ -229,7 +240,7 @@ img {
 
 /* Update Body Six */
 
-.background_color {
+.background_four {
     background-color: white;
 }
 
@@ -242,17 +253,20 @@ img {
 }
 
 .icon_app {
-    background-color: #daac00;
     padding: 10px;
 }
 
 /* Body Seven */
 
-.container_warp {
+.background_seven {
     background-image: url(../assets/images/background-7_image-1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.container_warp {
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -261,7 +275,7 @@ img {
 
 .warp {
     text-align: center;
-    padding: 100px 0px;
+    padding: 200px 0px;
 }
 
 /* Update Body Eight */
@@ -280,12 +294,15 @@ img {
 
 /* Footer */
 
+.background_footer {
+    background-color: #343434;
+}
+
 .container_footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    background-color: #343434;
     padding: 100px 0px;
 }
 
